@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+   
+  
+    // ###### START ->  Gradient style #######
+    
+    @keyframes colorCycle{
+      0%, 55%{
+    filter: brightness(0) invert(1)
+      }
+      11%, 33%{
+        filter: none
+      }
+    }
+
+    main {
+  
+      font-family: 'Poppins', sans-serif;
+     
+
+      width: 100vw;
+      height: 100vh;
+
+      display: flex;
+      align-items:center;
+      justify-content: center;
+     
+      
+      section{
+        padding: 0;
+        
+        
+        h1 {
+          color: transparent;
+          display: flex;
+          flex-direction:column;
+          align-items: center;
+          justify-content: center;
+          
+          font-weight: 900;
+          font-size: 15rem;
+          line-height: 15rem;
+          letter-spacing: 0.5rem;
+          margin-top: 200px;
+          // text-transform: uppercase;
+          
+          span{
+            background-clip: text;
+            padding: 30px;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            filter: brightness(0) invert(1);
+            
+            animation: colorCycle 10s ease-in-out infinite;
+          }
+          span:nth-child(1){
+    background-image:linear-gradient(90deg, #660589,#9612EB)
+          }
+          span:nth-child(2){
+    background-image:linear-gradient(90deg, #BF28E9,#C659F6);
+      animation-delay: 3.33s;
+          }
+          
+        }
+        .jrFrontDev{
+          display: flex;
+          justify-content: center;
+          
+        }
+        .jrFront{
+          color: white;
+          font-size: 4rem;
+          padding: 20px;
+          margin-bottom: 200px;
+          
+        }
+        
+      }
+      
+    }
+   // ###### END ->  Gradient style #######
+
+  //  Responsive Side 
+
+
+  @media only screen and (max-width: 600px) { 
+    main {
+  
+      font-family: 'Poppins', sans-serif;
+     
+      margin: 0;
+      padding-top: 150px;
+      width: 100vw;
+      height: auto;
+
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      
+      section{
+        padding: 0;
+        
+        h1 {
+          font-weight: 900;
+          font-size: 3.8rem;
+          line-height: 1.5rem;
+          padding-left: 10px;
+          
+          // letter-spacing: 0.5rem;
+          // text-transform: uppercase;
+        }
+        #frontEnd{
+          padding-left: 45px;
+        }
+        #frontEnd, #jrEnd{
+          font-size: 1.5rem;
+          text-align: center;
+          
+        }
+      }
+    }
+  }
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  main {
+  
+    font-family: 'Poppins', sans-serif;
+     
+    margin: 0;
+    padding-top: 150px;
+    width: 100vw;
+    height: auto;
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+      
+    section{
+      padding: 0;
+        
+      h1 {
+        font-weight: 900;
+        font-size: 8rem;
+        line-height: 5rem;
+        padding-left: 10px;
+          
+        // letter-spacing: 0.5rem;
+        // text-transform: uppercase;
+      }
+      #frontEnd{
+        padding-left: 45px;
+      }
+      #frontEnd, #jrEnd{
+        font-size: 2.5rem;
+        text-align: center;
+          
+      }
+    }
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  main {
+  
+    font-family: 'Poppins', sans-serif;
+     
+    margin: 0;
+    padding-top: 150px;
+    width: 100vw;
+    height: auto;
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+      
+    section{
+      padding: 0;
+        
+      h1 {
+        font-weight: 900;
+        font-size:9rem;
+        line-height: 6rem;
+        padding-left: 10px;
+          
+        // letter-spacing: 0.5rem;
+        // text-transform: uppercase;
+      }
+      #frontEnd{
+        padding-left: 45px;
+      }
+      #frontEnd{
+        font-size: 2.6rem;
+        text-align: center;
+        margin-bottom: 100px;
+          
+      }
+    }
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+  main {
+  
+    font-family: 'Poppins', sans-serif;
+     
+    margin: 0;
+    padding-top: 150px;
+    width: 100vw;
+    height: auto;
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+      
+    section{
+      padding: 0;
+        
+      h1 {
+        font-weight: 900;
+        font-size:12rem;
+        line-height: 8rem;
+        padding-left: 10px;
+          
+        // letter-spacing: 0.5rem;
+        // text-transform: uppercase;
+      }
+      #frontEnd{
+        padding-left: 45px;
+      }
+      #frontEnd{
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 100px;
+          
+      }
+    }
+  }
+  
+ }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */

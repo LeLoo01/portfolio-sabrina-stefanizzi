@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+
+
+@-webkit-keyframes colorCycle {
+  0%, 55% {
+    -webkit-filter: brightness(0) invert(1);
+            filter: brightness(0) invert(1);
+  }
+  11%, 33% {
+    -webkit-filter: none;
+            filter: none;
+  }
+}
+@keyframes colorCycle {
+  0%, 55% {
+    -webkit-filter: brightness(0) invert(1);
+            filter: brightness(0) invert(1);
+  }
+  11%, 33% {
+    -webkit-filter: none;
+            filter: none;
+  }
+}
+
+main {
+  font-family: 'Poppins', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+          
+}
+
+main section {
+  padding: 0;
+  margin-top: 300px;
+}
+
+main section h1 {
+  color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 800;
+  font-size: 9rem;
+  line-height: 7rem;
+  letter-spacing: 0.5rem;
+ 
+  
+}
+
+main section h1 span {
+  background-clip: text;
+  padding: 30px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+  -webkit-animation: colorCycle 10s ease-in-out infinite;
+          animation: colorCycle 10s ease-in-out infinite;
+}
+
+main section h1 span:nth-child(1) {
+  background-image: -webkit-gradient(linear, left top, right top, from(#660589), to(#9612EB));
+  background-image: linear-gradient(90deg, #660589, #9612EB);
+}
+
+main section h1 span:nth-child(2) {
+  background-image: -webkit-gradient(linear, left top, right top, from(#BF28E9), to(#C659F6));
+  background-image: linear-gradient(90deg, #BF28E9, #C659F6);
+  -webkit-animation-delay: 3.33s;
+          animation-delay: 3.33s;
+}
+
+main section .jrFrontDev {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main section .jrFront {
+  color: white;
+  font-size: 3rem;
+  padding: 20px;
+}
+
+main section .jrDev {
+  color: white;
+  font-size: 3rem;
+  padding: 20px;
+}
+/*# sourceMappingURL=home.css.map */

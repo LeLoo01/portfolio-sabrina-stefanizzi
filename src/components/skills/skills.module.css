@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+
+.skills{
+    
+    color: transparent;
+    font-family: "moon_get-Heavy";
+    font-size: 12rem;
+    letter-spacing: 3px;
+    -webkit-text-stroke: 2px white;
+    /* text-transform: uppercase; */
+    text-align: center;  
+    
+    padding-top: 100px;
+    
+}
+.skills{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.divIconsgroup {
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-content:center;
+    align-items:center;
+    height:70vh;
+    margin-left: 70px;
+    
+}
+.divIconsgroup :hover{
+    color: #9612EB;
+ 
+}
+
+
+
+svg{
+
+    width:100%;
+    height:120px;
+    color:rgb(255, 255, 255); 
+    
+}
+li > .icon{
+    display:flex;
+    list-style-type: none;
+    color:white;
+    /* padding:30px; */
+    align-items:center;
+    
+}
+
+
+
+ul {
+    display:flex;
+    padding:50px;    
+}
+
+
+p {
+    width:200px;
+    text-align:center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size:25px;
+    font-weight:500;
+    padding-top: 10px;
+    padding: 20px;
+}
+.langWeb{
+    cursor:pointer;
+    transition: all 150ms ease-in-out;
+}
+.langWeb:hover {
+    color: #9612EB;;
+
+} 
+
+
+/* Responsive Side */
+
+@media only screen and (max-width: 600px) {
+    .skills{
+        margin-top: 80px;
+        padding: 0;
+        color: transparent;
+        font-family: "moon_get-Heavy";
+        font-size: 1rem;
+        letter-spacing: 4px;
+        -webkit-text-stroke: 1px white;
+        text-align: center;
+    }
+    .divIconsgroup {
+        display:flex;
+        justify-content:left;
+        flex-direction:column;
+        align-content:left;
+        align-items:left;
+    }
+    
+    .divIconsgroup :hover{
+        color: #9612EB;
+    }
+
+    ul > li > .secondIconGroup{
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        align-content:right;
+        align-items:right;
+        height:70vh;
+        margin-left: 70px;
+
+    }
+
+    
+    svg{
+
+        width:30%;
+        color:rgb(255, 255, 255);
+    }
+
+    li > .icon{
+        display:flex;
+        list-style-type:none;
+        color:white;
+        margin: 0;
+        padding: 0;
+    }
+    .iconness{
+        display: flex;
+    }
+    ul {
+        display:flex;
+        padding:0;    
+        margin:0;
+        flex-direction: column;
+    }
+
+    p {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size:20px;
+        font-weight:300;
+        flex-direction: column;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .langWeb{
+        cursor:pointer;
+        transition: all 150ms ease-in-out;
+    }
+    .langWeb:hover {
+        color: #9612EB;;
+
+    } 
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .skills{
+        margin-top: 80px;
+        padding: 0;
+        color: transparent;
+        font-family: "moon_get-Heavy";
+        font-size: 8.5rem;
+        letter-spacing: 4px;
+        -webkit-text-stroke: 1px white;
+        text-align: center;
+    }
+    .divIconsgroup {
+        display:flex;
+        justify-content:left;
+        flex-direction:column;
+        align-content:left;
+        align-items:left;
+    }
+    
+    .divIconsgroup :hover{
+        color: #9612EB;
+    }
+
+    ul > li > .secondIconGroup{
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        align-content:right;
+        align-items:right;
+        height:0vh;
+        margin-left: 70px;
+
+    }
+
+    
+    svg{
+
+        width:40%;
+        color:rgb(255, 255, 255);
+    }
+
+    li > .icon{
+        display:flex;
+        list-style-type:none;
+        color:white;
+        margin: 0;
+        padding: 0;
+    }
+    .iconness{
+        display: flex;
+    }
+    ul {
+        display:flex;
+        padding:0;    
+        margin:0;
+        flex-direction: column;
+    }
+
+    p {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size:30px;
+        font-weight:300;
+        flex-direction: column;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .langWeb{
+        cursor:pointer;
+        transition: all 150ms ease-in-out;
+    }
+    .langWeb:hover {
+        color: #9612EB;;
+
+    } 
+
+}
+
+
+@media only screen and (max-width: 992px) {
+    .skills{
+        margin-top: 80px;
+        padding: 0;
+        color: transparent;
+        font-family: "moon_get-Heavy";
+        font-size: 9rem;
+        letter-spacing: 4px;
+        -webkit-text-stroke: 1px white;
+        text-align: center;
+    }
+    .divIconsgroup {
+        display:flex;
+        justify-content:left;
+        flex-direction:column;
+        align-content:left;
+        align-items:left;
+    }
+    
+    .divIconsgroup :hover{
+        color: #9612EB;
+    }
+
+    ul > li > .secondIconGroup{
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        align-content:right;
+        align-items:right;
+        height:0vh;
+        margin-left: 70px;
+
+    }
+
+    
+    svg{
+
+        width:40%;
+        color:rgb(255, 255, 255);
+    }
+
+    li > .icon{
+        display:flex;
+        list-style-type:none;
+        color:white;
+        margin: 0;
+        padding: 0;
+    }
+    .iconness{
+        display: flex;
+    }
+    ul {
+        display:flex;
+        padding:0;    
+        margin:0;
+        flex-direction: column;
+    }
+
+    p {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size:30px;
+        font-weight:300;
+        flex-direction: column;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .langWeb{
+        cursor:pointer;
+        transition: all 150ms ease-in-out;
+    }
+    .langWeb:hover {
+        color: #9612EB;;
+
+    } 
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .skills{
+        margin-top: 200px;
+        margin-bottom: 100px;
+        padding: 0;
+        color: transparent;
+        font-family: "moon_get-Heavy";
+        font-size: 10rem;
+        letter-spacing: 4px;
+        -webkit-text-stroke: 1px white;
+        text-align: center;
+    }
+    .divIconsgroup {
+        display:flex;
+        justify-content:left;
+        flex-direction:column;
+        align-content:left;
+        align-items:left;
+    }
+    
+    .divIconsgroup :hover{
+        color: #9612EB;
+    }
+
+    ul > li > .secondIconGroup{
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        align-content:right;
+        align-items:right;
+        height:0vh;
+        margin-left: 70px;
+
+    }
+
+    
+    svg{
+
+        width:40%;
+        color:rgb(255, 255, 255);
+    }
+
+    li > .icon{
+        display:flex;
+        list-style-type:none;
+        color:white;
+        margin: 0;
+        padding: 0;
+    }
+    .iconness{
+        display: flex;
+    }
+    ul {
+        display:flex;
+        padding:0;    
+        margin:0;
+        flex-direction: column;
+    }
+
+    p {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size:30px;
+        font-weight:300;
+        flex-direction: column;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .langWeb{
+        cursor:pointer;
+        transition: all 150ms ease-in-out;
+    }
+    .langWeb:hover {
+        color: #9612EB;;
+
+    } 
+
+}

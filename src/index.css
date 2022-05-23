@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  margin: 0;
+  padding: 0;
+  
+  
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: auto;
+  background-color:#1f2229;
+ 
+  background-image: url("/src/img/bgHeron.png");
+  background-attachment: fixed;
+
+ 
+  
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+

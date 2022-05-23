@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+.foot {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 50px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.foot:hover {
+  color: #9612EB;
+}
+/*# sourceMappingURL=footer.css.map */
