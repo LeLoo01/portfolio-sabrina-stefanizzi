@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio-sabrina-stefanizzi/static/css/main.839095c5.css",
+    "main.js": "/portfolio-sabrina-stefanizzi/static/js/main.e05ace06.js",
+    "static/js/787.be39f00b.chunk.js": "/portfolio-sabrina-stefanizzi/static/js/787.be39f00b.chunk.js",
+    "static/media/ElPatio-logo.jpg": "/portfolio-sabrina-stefanizzi/static/media/ElPatio-logo.dae765ff9a2543101799.jpg",
+    "static/media/comDemoiselles.jpg": "/portfolio-sabrina-stefanizzi/static/media/comDemoiselles.0963c6799463d34c7fab.jpg",
+    "static/media/bgHeron.png": "/portfolio-sabrina-stefanizzi/static/media/bgHeron.47fbf4def3d794398ad8.png",
+    "static/media/sabStefa.pdf": "/portfolio-sabrina-stefanizzi/static/media/sabStefa.10f8d61b9764e96c701f.pdf",
+    "static/media/hkt.png": "/portfolio-sabrina-stefanizzi/static/media/hkt.491a11bb552920710206.png",
+    "static/media/moon_get-Heavy.ttf": "/portfolio-sabrina-stefanizzi/static/media/moon_get-Heavy.c9fed3203095d9c65757.ttf",
+    "static/media/jdldCover.png": "/portfolio-sabrina-stefanizzi/static/media/jdldCover.53b57d17be86c7bd4faa.png",
+    "index.html": "/portfolio-sabrina-stefanizzi/index.html",
+    "main.839095c5.css.map": "/portfolio-sabrina-stefanizzi/static/css/main.839095c5.css.map",
+    "main.e05ace06.js.map": "/portfolio-sabrina-stefanizzi/static/js/main.e05ace06.js.map",
+    "787.be39f00b.chunk.js.map": "/portfolio-sabrina-stefanizzi/static/js/787.be39f00b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.839095c5.css",
+    "static/js/main.e05ace06.js"
+  ]
+}
